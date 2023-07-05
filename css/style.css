@@ -1,0 +1,139 @@
+body{
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+a:link, a:active, a:visited{
+    text-decoration: none;
+    color: rgb(215, 131, 22);
+}
+/* Logo */
+#logo{
+    float:left;
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    background: url(../img/logo.png)  no-repeat;
+    text-indent: -9999px;
+    display:block;
+}
+/* nav */
+#barra_opcoes ul{
+    list-style: none;
+    float:right;
+    margin: 20px;
+}
+#barra_opcoes ul li{
+    float: left;
+}
+#barra_opcoes ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+#barra_opcoes ul li a:hover{
+    text-decoration: underline;
+    color: rgb(5, 100, 30);
+}
+/* main style */
+#content {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+aside{
+    width: 350px;
+    float:right;
+    background: #ebe7dd;
+    margin-bottom: 20px;
+}
+section#visita{
+    background:#cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+    text-align: center;
+}
+section#galeria{
+    text-align: center;
+}
+section#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 20px;
+    margin: 10px 0 0 20px;
+}
+section#video{
+    float: left;
+    width: 310px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+}
+section#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+    padding-bottom: 8px;
+}
+section#topicos{
+    float: left;
+    width: 310px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+}
+section#texto{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+    padding-bottom: 8px;
+}
+h3{
+    color: #227115;
+    font-size: 1.2em;
+}
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin: 0;
+}
+input{
+    height: 20px;
+    background: white;
+    border:none;
+    font-size:1em;
+    width: 100px;
+}
+input.campo{
+    border: 1px solid #ada484;
+}
+input.botao{
+    background:#9b9271;
+    color:white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 8px;
+}
+fieldset{
+    border:none;
+}
+legend{
+    display: none;
+}
+footer{
+    clear: both;
+    height: 30px;
+    text-align: center;
+    padding: 20px 0 0 20px;
+    font-size: 1.5em;
+}
+footer>p a{
+    padding-left: 15px;
+}
